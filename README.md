@@ -16,3 +16,5 @@ Smart contract: Lottery Application
  9) Now we have to find bytecode and abi code for our smart contract, to generate these use command: solcjs --bin --abi <Your Contract Name>.sol
  10) Replace those bytecode and abi codes in 'private-contract.js', and also remove the value in the privateFor parameter. You can find this file in 'quorum-examples/examples/7nodes' directory. If we want to send any transaction to any particular node at that time use the privateFor parameter and set that using that node's public key which you can find from the '/quorum-examples/examples/7nodes/keys' directory.
  11) Now using loadScript('/examples/private-contract.js') you can deploy your smart contract on the quorum blockchain and see mined address and transaction hash if your contract is mined succesfully on a blockchain.
+
+  ![Screenshot from 2023-03-18 19-36-13](https://user-images.githubusercontent.com/83130959/226094907-a2c658e0-ecee-483c-b571-b8d044b315cf.png)
